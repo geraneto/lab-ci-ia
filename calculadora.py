@@ -16,10 +16,10 @@ def dividir(a, b):
     return a / b
 
 # Para:
-def dividir(a, b, arredondar):
+def dividir(a, b):
     if b == 0:
         raise ValueError("Divisão por zero não é permitida")
-    resultado = a / b
+    return = a / b
 
 def raiz_quadrada(n):
     if n < 0:
