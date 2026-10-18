@@ -19,7 +19,7 @@ def dividir(a, b):
 def dividir(a, b):
     if b == 0:
         raise ValueError("Divisão por zero não é permitida")
-    return = a / b
+    return a / b
 
 def raiz_quadrada(n):
     if n < 0:
